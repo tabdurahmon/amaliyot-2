@@ -1,34 +1,34 @@
 /* SITE FONT FACE */
 @font-face {
-  font-family: 'Jost';
-  src: url('../fonts/Jost-Bold.woff2') format('woff2'),
-    url('../fonts/Jost-Bold.woff') format('woff');
+  font-family: "Jost";
+  src: url("../fonts/Jost-Bold.woff2") format("woff2"),
+    url("../fonts/Jost-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Jost';
-  src: url('../fonts/Jost-Medium.woff2') format('woff2'),
-    url('../fonts/Jost-Medium.woff') format('woff');
+  font-family: "Jost";
+  src: url("../fonts/Jost-Medium.woff2") format("woff2"),
+    url("../fonts/Jost-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'DM Serif Display';
-  src: url('../fonts/DMSerifDisplay-Regular.woff2') format('woff2'),
-    url('../fonts/DMSerifDisplay-Regular.woff') format('woff');
+  font-family: "DM Serif Display";
+  src: url("../fonts/DMSerifDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/DMSerifDisplay-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Jost';
-  src: url('../fonts/Jost-Regular.woff2') format('woff2'),
-    url('../fonts/Jost-Regular.woff') format('woff');
+  font-family: "Jost";
+  src: url("../fonts/Jost-Regular.woff2") format("woff2"),
+    url("../fonts/Jost-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -37,8 +37,8 @@
 /* CUSTOM PROPERTY */
 :root {
   /* fonts */
-  --serif-display: 'DM Serif Display', 'Georgia', serif;
-  --jost-text: 'Jost', 'Arial', sans-serif;
+  --serif-display: "DM Serif Display", "Georgia", serif;
+  --jost-text: "Jost", "Arial", sans-serif;
   /* colors */
   --primary-color: #cda274;
   --secondary-color: #292f36;
@@ -171,7 +171,7 @@ i {
 /* HERO STYLES */
 .hero {
   padding: 5rem 0;
-  background-image: url('../images/jpg/background-image.jpg');
+  background-image: url("../images/jpg/background-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -200,7 +200,7 @@ i {
 .form__input {
   width: 400px;
   background-color: transparent;
-  background-image: url('../images/svg/user-search.svg');
+  background-image: url("../images/svg/user-search.svg");
   background-repeat: no-repeat;
   background-size: 25px 26px;
   background-position: center left 4px;
@@ -214,7 +214,7 @@ i {
   margin-right: 15px;
 }
 .form .border {
-  content: '';
+  content: "";
   width: 0%;
   height: 3px;
   background-color: var(--primary-color);
